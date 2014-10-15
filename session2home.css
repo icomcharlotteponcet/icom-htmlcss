@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+#colonnegauche {
+	width:400px;
+	float: left;
+	background-color:#A4A4A4;
+}
+
+#colonnemilieu {
+	width:400px;
+	float: left;
+}
+
+#colonnedroite {
+	width:400px;
+	float: right;
+}
+
+#bloc1 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#bloc2 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#bloc3 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#bloc4 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#bloc5 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#bloc6 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #088A4B;	
+}
+
+#link {
+	margin: 20px 0 10px 0;
+	border-top: 1px dashed grey;
+		border-bottom: 1px dashed grey;
+	width: 50%;
+}
+
+.date {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	font-size: 0.8em;
+}
+
+
+#bouton1 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color:#A4A4A4;
+}
+
+#bouton2 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color:#A4A4A4;
+}
+
+#bouton3 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color:#A4A4A4;
+}
+
+#footer-top #footer-gauche {
+	width:400px;
+	float: left;
+	padding-top: 20px;
+
+}
+
+#footer-top #footer-milieu {
+	width:400px;
+	float: left;
+	padding-top: 20px;
+}
+
+#footer-top #footer-droite {
+	width:400px;
+	float: right;
+	padding-top: 20px;
+}
+
+#footer #foot-bottom {
+margin-top: 40px;
+padding: 20px;
+width: 1200px ;
+height: 40px ;
+text-align: left;
+background-color: black ;
+color:white;
+position:absolut; 
+
+}

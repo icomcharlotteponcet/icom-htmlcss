@@ -1,0 +1,79 @@
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, label, u{
+	margin: 0;
+	padding: 0;
+	border:0px;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+}
+
+body{
+	background:#FFF;
+	font-family: helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 auto;
+	overflow: auto;
+}
+
+#header #logo{
+	float:left;
+}
+
+
+#header #nav {
+	width: 1000px;
+	float: right;
+	margin-top: 36px;
+}
+
+#header #nav ul li {
+	float: left;
+	padding: 0 0 0 65px;
+}
+
+#header #nav ul li a {
+	text-decoration: none;
+	color:#088A4B;
+	text-align: left;
+}
+
+#header #nav ul li a span {
+	color:#190707;
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 5px solid #088A4B;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+* {margin:0;padding:0}
+ 
+html, body {height: 100%}
+#wrap {min-height: 100%}
+ 
+#main {
+    overflow:auto;
+    padding-bottom: 150px
+}
+ 
+#footer-top {
+    position: relative;
+    clear:both;
+    margin-top: -150px;
+    height: 150px
+}
+ 
+/*Opera Fix*/
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px
+}
